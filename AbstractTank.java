@@ -2,7 +2,7 @@ package Quadrants;
 
 import java.util.Random;
 
-public abstract class AbstractTank {
+public abstract class AbstractTank implements Destroyable, Drawable{
     
 	protected int speed;
 	private int x;
